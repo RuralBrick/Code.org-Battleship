@@ -1,4 +1,4 @@
-// tinyurl.com/battleship2code
+// https://tinyurl.com/battleship2code
 
 // #region Constants
 var Color = {
