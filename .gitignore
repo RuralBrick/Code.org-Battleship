@@ -1,5 +1,36 @@
-## Electron
 out/
+
+## Electron Forge
+.nyc_output
+.vscode
+*.lcov
+/coverage
+dist
+docs
+doc
+node_modules
+yarn-error.log
+**/.npmignore
+!/.npmignore
+**/tsconfig.json
+!/tsconfig.json
+!packages/template/*/tmpl/tsconfig.json
+**/tslint.json
+!/tslint.json
+**/yarn.lock
+!/yarn.lock
+packages/*/*/index.ts
+packages/.old
+packages/utils/types/index.d.ts
+packages/maker/**/README.md
+packages/publisher/**/README.md
+packages/plugin/**/README.md
+packages/api/cli/README.md
+!packages/**/base/README.md
+!/README.md
+.webpack
+
+## Electron
 .DS_Store
 .env
 .gclient_done
